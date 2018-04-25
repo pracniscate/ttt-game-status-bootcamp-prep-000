@@ -35,10 +35,9 @@ def won?(board)
         position_2 == "O" &&
         position_3 == "O")
       return [win_index_1, win_index_2, win_index_3] # return the win_combination indexes that won.
-    else
-      false
     end
   end
+  false
 end
 
 def full?(board)
