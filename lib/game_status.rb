@@ -37,7 +37,7 @@ def won?(board)
       return [win_index_1, win_index_2, win_index_3] # return the win_combination indexes that won.
     end
   end
-  false
+  #false
 end
 
 def full?(board)
