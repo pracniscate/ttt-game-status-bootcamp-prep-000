@@ -24,9 +24,9 @@ def won(board)
     win_index_2 = win_combination[1]
     win_index_3 = win_combination[2]
     
-    position_1 = board[win_index_1]
-    position_2 = board[win_index_2]
-    position_3 = board[win_index_3]
+    position_1 = board[win_index_1] # load the value of the board at win_index_1
+    position_2 = board[win_index_2] # load the value of the board at win_index_2
+    position_3 = board[win_index_3] # load the value of the board at win_index_3
     
     if board[win_index_1] == "X" &&
        board[win_index_2] == "X" && 
