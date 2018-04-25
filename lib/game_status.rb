@@ -70,5 +70,5 @@ end
 
 def winner?(board)
   if won?(board) = true
-    if board[won?]
+    if board[won?(board)]
 end
