@@ -71,4 +71,9 @@ end
 def winner?(board)
   if won?(board) = true
     if board[won?(board)[0]] == "X"
+      "X"
+    else
+      "O"
+    end
+  end
 end
