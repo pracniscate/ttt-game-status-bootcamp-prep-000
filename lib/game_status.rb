@@ -28,8 +28,8 @@ def won(board)
        board[win_index_2] == "X" && 
        board[win_index_3] == "X"
       return win_combination # return the win_combination indexes that won.
-    else board[win_index_1] == "O" && board[win_index_2] == "O" && board[win_index_3] == "O"
-      return win_combo
+    else 
+      false
     end
   end
 end
