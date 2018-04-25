@@ -62,7 +62,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == true
+  if won?(board)
     if board[won?(board)[0]] == "X"
       "X"
     else
